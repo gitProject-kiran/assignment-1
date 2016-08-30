@@ -1,0 +1,26 @@
+{
+  "name": "demo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify ./public/js/app.js -o ./build/js/bundle.js",
+    "watch": "watchify ./public/js/app.js -o bundle.js"
+  },
+  "author": "kiran shinde",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "browser-sync": "^2.14.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-uglify": "^2.0.0",
+    "jquery": "^3.1.0",
+    "lodash": "^4.15.0",
+    "stringify": "^5.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
